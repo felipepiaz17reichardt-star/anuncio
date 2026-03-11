@@ -48,21 +48,27 @@ body::before {
 
     border: 2px solid #ff1a1a;
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+    transition:0.3s;
 }
 
-/* texto */
+
+.container:hover{
+    transform:scale(1.01);
+}
+
+
 .texto {
     flex: 1;
 }
 
-/* titulo */
+
 h1 {
     color: #ff1a1a;
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-/* paragrafo */
+
 p {
     font-size: 18px;
     line-height: 1.6;
@@ -82,23 +88,23 @@ img:hover {
     transform: scale(1.05);
 }
 
-/* botão */
-button {
-    background: #ff1a1a;
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    font-size: 18px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.3s;
+
+button{
+    background:#ff1a1a;
+    border:none;
+    color:white;
+    padding:14px 40px;
+    font-size:18px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+    font-weight:bold;
 }
 
 button:hover {
     background: #cc0000;
 }
 
-/* redes sociais */
 ul {
     list-style: none;
     margin-top: 25px;
@@ -156,4 +162,7 @@ li i {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 40px rgba(255, 0, 0, 0.4);
     border: 2px solid #ff1a1a;
+    padding:6px;
+    background:white;
+    border-radius:8px;
 }
