@@ -20,7 +20,7 @@
             <p>
                 Mangá-Zone é um projeto de plataforma online criada para fãs de mangá.
                 A ideia é reunir capítulos em um só lugar e facilitar a leitura,
-                permitindo que qualquer pessoa des cubra novas histórias rapidamente.
+                permitindo que qualquer pessoa descubra novas histórias rapidamente.
             </p>
 
             <button>Acessar</button>
@@ -64,5 +64,6 @@
 
 
 </body>
+
 
 </html>
